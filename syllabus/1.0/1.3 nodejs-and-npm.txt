@@ -1,0 +1,2 @@
+- How to check nodejs installed or not
+- How to check npm installed or not
