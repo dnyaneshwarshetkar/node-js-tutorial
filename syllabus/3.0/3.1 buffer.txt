@@ -1,0 +1,21 @@
+What is buffer?
+
+A Buffer is a fixed-length sequence of bytes in Node.js. It is a built-in object that provides ways to manipulate binary data. Buffers are used in Node.js to store data such as images, audio and video files, and raw data from a network.
+
+Buffers are important because they provide a fast and efficient way to store and manipulate binary data. They are also useful when dealing with I/O operations such as reading from or writing to a file or communicating over a network.
+
+To use a Buffer in Node.js, you can:
+Create a Buffer object using the Buffer constructor. For example, you can create a Buffer with a fixed size like this:
+
+Create Buffer: 
+const myBuffer = Buffer.alloc(10);
+
+
+Use the Buffer's various methods to manipulate the binary data it contains.
+Here are some of the most important Buffer methods:
+Buffer.alloc(): Creates a new Buffer of a given size.
+Buffer.from(): Creates a new Buffer from an existing Buffer, array, or string.
+Buffer.write(): Writes data to a Buffer.
+Buffer.read(): Reads data from a Buffer.
+Buffer.compare(): Compares two Buffers to see if they are equal.
+Buffers are a powerful tool that can be used to store and manipulate binary data in Node.js. By understanding how Buffers work, you can write more efficient and effective Node.js applications.
