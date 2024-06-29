@@ -1,0 +1,34 @@
+Node.js as a File Server
+
+The Node.js file system module allows you to work with the file system on your computer.
+
+var fs = require('fs');
+
+Common use for the File System module:
+
+Read files
+Create files
+Update files
+Delete files
+Rename files
+
+Create Files
+The File System module has methods for creating new files:
+
+fs.appendFile()
+fs.open()
+fs.writeFile()
+
+Update Files
+The File System module has methods for updating files:
+
+fs.appendFile()
+fs.writeFile()
+
+Delete Files
+To delete a file with the File System module,  use the fs.unlink() method.
+
+Rename Files
+To rename a file with the File System module,  use the fs.rename() method.
+
+The fs.rename() method renames the specified file:
